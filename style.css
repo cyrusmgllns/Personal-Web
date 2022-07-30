@@ -27,7 +27,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-  background: var(--green);
+  background: whitesmoke;
   border-radius: 50px;
 }
 
