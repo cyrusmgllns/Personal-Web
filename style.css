@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-  --blue:#2980b9;
+  --green:#0ec414;
   --black:#333;
   --white:#fff;
   --light-color:#777;
@@ -23,17 +23,17 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-  background: var(--blue);
+  background: var(--green);
 }
 
 html::-webkit-scrollbar-thumb{
-  background: var(--white);
+  background: var(--green);
   border-radius: 50px;
 }
 
 .title{
   font-size: 25px;
-  color:var(--blue);
+  color:var(--green);
   margin-bottom: 15px;
 }
 
@@ -42,7 +42,7 @@ html::-webkit-scrollbar-thumb{
   display: inline-block;
   padding:7px 20px;
   border-radius: 5px;
-  background: var(--blue);
+  background: var(--green);
   color:var(--white);
   font-size: 17px;
   box-shadow: var(--box-shadow);
@@ -54,7 +54,7 @@ html::-webkit-scrollbar-thumb{
 
 .container{
   padding:100px 9%;
-  background: linear-gradient(45deg, deeppink, var(--blue));
+  background: linear-gradient(45deg, green, var(--black));
   display: flex;
 }
 
@@ -84,7 +84,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container .profile p{
-  color:var(--blue);
+  color:var(--green);
   padding:5px 0;
   margin-bottom: 10px;
   font-size: 15px;
@@ -105,7 +105,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container .profile .share a:hover{
-  background: var(--blue);
+  background: var(--green);
   color:var(--white);
   box-shadow: var(--box-shadow);
 }
@@ -201,7 +201,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container .information .skills .box-container .box .progress .bar span{
-  background: var(--blue);
+  background: var(--green);
   height: 100%;
   display: block;
   border-radius: 50px;
@@ -241,7 +241,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container .information .experience .box-container .box span{
-  color:var(--blue);
+  color:var(--green);
   font-size: 15px;
 }
 
@@ -276,7 +276,7 @@ html::-webkit-scrollbar-thumb{
   line-height: 40px;
   font-size: 15px;
   border-radius: 50%;
-  background: var(--blue);
+  background: var(--green);
   color:var(--white);
   text-align: center;
 }
