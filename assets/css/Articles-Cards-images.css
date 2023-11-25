@@ -1,0 +1,12 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+h2 {
+  text-align: center;
+}
+
+#about h2 {
+  margin-top: 50px;
+}
+
