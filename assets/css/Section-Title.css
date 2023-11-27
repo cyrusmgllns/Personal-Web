@@ -1,0 +1,22 @@
+.title-div {
+  width: 85vw;
+  text-align: center;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-div h1 {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  margin: 5px;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+}
+
